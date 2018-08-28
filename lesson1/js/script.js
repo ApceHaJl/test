@@ -14,16 +14,28 @@ alert("Ваш бюджет на сегодняшний день составля
 
 
 for (let i = 0; i < 3; i++) {
-
 		let a = prompt("Какой тип товаров будем продавать?");		
-
 		if ((typeof(a)) === "string" && (typeof(a)) === null && a != "" && a.length < 50);
-		console.log("Все верно!");
 		mainList.shopgoods[i] = a;
-
 }
 
+// let i = 0;
 
+// while (i < 3) {
+// 		let a =  prompt("Какой тип товаров будем продавать?");
+// 		if ((typeof(a) === "string") && a != "" && a.leight < 50);
+// 		mainList.shopgoods[i] = a;
+// 		i++;
+// }
+
+// let i = 0;
+
+// do {
+// 		let a = prompt("Какой тип товаров будем продавать?");
+// 		if ((typeof(a) == "string") && a != "" && a.leight < 50);
+// 		mainList.shopgoods[i] = a;
+// 		i++;
+// } while (i < 3);
 
 // console.log(mainList.budget)
 // console.log(mainList.name)
